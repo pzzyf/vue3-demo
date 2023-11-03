@@ -1,5 +1,5 @@
 <template>
-  <div @click="increment()">
+  <div @click="increment()" class="afe1-page-footer">
     {{ count }}
   </div>
 </template>
@@ -18,9 +18,15 @@ watch(
   () => {
     console.log(store.double);
   },
-  {deep: true}
+  { deep: true }
 )
 
 </script>
 
-<style scoped></style>
+<style lang="less" scoped>
+@prefix: ~'@{namespace}-page-footer';
+
+.@{prefix} {
+  color: pink;
+}
+</style>
