@@ -1,7 +1,5 @@
 <template>
-  <div @click="increment()" class="afe1-page-footer">
-    {{ count }}
-  </div>
+  <router-view />
 </template>
 
 <script setup lang="ts">
