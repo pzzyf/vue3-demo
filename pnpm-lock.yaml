@@ -14,6 +14,9 @@ dependencies:
   less:
     specifier: ^4.2.0
     version: registry.npmmirror.com/less@4.2.0
+  pc-vue3-ui:
+    specifier: 0.0.1-beta.1
+    version: 0.0.1-beta.1
   pinia:
     specifier: ^2.1.7
     version: registry.npmmirror.com/pinia@2.1.7(typescript@5.0.2)(vue@3.3.4)
@@ -305,6 +308,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     optional: true
+
+  /pc-vue3-ui@0.0.1-beta.1:
+    resolution: {integrity: sha512-kIsoVGmLlwxR3h77/FETay4G6G0PI1/HPAJd6+4dGc74CzovzJmPl0AfJvV/uBfILShv/SnKDBPXEnsPt01KRw==}
+    dev: false
 
   /source-map@0.6.1:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}

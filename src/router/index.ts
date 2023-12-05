@@ -11,6 +11,11 @@ const routes = [
     name: "echarts",
     component: () => import("../components/echarts.vue"),
   },
+  {
+    path: "/uilib",
+    name: "uilib",
+    component: () => import("../components/uilib.vue"),
+  },
 ];
 
 const router = createRouter({
