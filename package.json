@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "@types/node": "^20.8.10",
+    "afe1-ui": "^1.0.3",
+    "driver.js": "^1.3.1",
     "echarts": "^5.4.3",
     "less": "^4.2.0",
-    "pc-vue3-ui": "0.0.1-beta.1",
     "pinia": "^2.1.7",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"

@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
-    path: '/',
-    component: () => import('../components/webpack.vue')
+    path: "/",
+    component: () => import("../components/driver.vue"),
   },
   // echarts
   {

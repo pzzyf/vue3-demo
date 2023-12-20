@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <a-button>1</a-button>
-    </div>
+    <a-button>1</a-button>
 </template>
 
 <script setup lang="ts">

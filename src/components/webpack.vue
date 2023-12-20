@@ -1,11 +1,7 @@
 <template>
-    <div>
-        12
-    </div>
+  <div disabled="true">123</div>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style scoped></style>
