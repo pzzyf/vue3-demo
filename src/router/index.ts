@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 const routes = [
   {
     path: "/",
-    component: () => import("../components/driver.vue"),
+    component: () => import("../components/f-model.vue"),
   },
   // echarts
   {
