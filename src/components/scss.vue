@@ -1,5 +1,10 @@
 <template>
-  <div class="nav">123</div>
+  <div>
+    <div class="nav"></div>
+    <div id="content">
+      <aside>123</aside>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts"></script>
@@ -10,5 +15,12 @@ $bb-red: red;
   $width: 100px;
   width: $width;
   color: $bb_red;
+}
+
+#content {
+  background-color: red;
+  aside {
+    background-color: yellow;
+  }
 }
 </style>
