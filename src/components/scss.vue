@@ -28,7 +28,7 @@ $bb-red: red;
   }
   article a {
     color: blue;
-    :hover {
+    &:hover {
       color: red;
     }
   }
