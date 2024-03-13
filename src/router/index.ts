@@ -1,9 +1,17 @@
 import { createRouter, createWebHistory } from "vue-router";
 
+import Layout from "../layout/index.vue";
+
 const routes = [
   {
-    path: "/",
-    component: () => import("../components/flex.vue"),
+    path: "/aaa",
+    component: Layout,
+    children: [
+      {
+        path: "bbb",
+        component: () => import("../views/index.vue"),
+      },
+    ],
   },
 ];
 
