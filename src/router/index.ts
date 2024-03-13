@@ -3,18 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 const routes = [
   {
     path: "/",
-    component: () => import("../components/scss.vue"),
-  },
-  // echarts
-  {
-    path: "/echarts",
-    name: "echarts",
-    component: () => import("../components/echarts.vue"),
-  },
-  {
-    path: "/uilib",
-    name: "uilib",
-    component: () => import("../components/uilib.vue"),
+    component: () => import("../components/flex.vue"),
   },
 ];
 
